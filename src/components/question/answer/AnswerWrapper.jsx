@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Answer from './Answer.jsx';
+import './answerWrapper.scss';
 
 const AnswerWrapper = ({ answers, groupId }) => {
     const [wasClicked, setWasClicked] = useState();

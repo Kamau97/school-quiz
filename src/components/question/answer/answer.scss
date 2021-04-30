@@ -1,13 +1,25 @@
 .answer {
-  .correct {
-    background-color: green;
-  }
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
 
-  .wrong {
-    background-color: red;
-  }
+  .button {
+    width: 30vw;
+    min-width: 245px;
+    max-width: 345px;
+    border-radius: 50px;
 
-  .disabled {
-    opacity: 0.3;
+    &.correct {
+      background-color: green;
+    }
+
+    &.wrong {
+      background-color: red;
+    }
+
+    &.disabled {
+      opacity: 0.3;
+    }
   }
 }

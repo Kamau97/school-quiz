@@ -1,0 +1,16 @@
+.question {
+  background-color: rgba(62, 62, 219, 0.64);
+  max-width: 475px;
+  width: 80vw;
+  border-radius: 10px;
+
+  &__head {
+    display: flex;
+    justify-content: center;
+
+    h2 {
+      color: black;
+      text-align: center;
+    }
+  }
+}

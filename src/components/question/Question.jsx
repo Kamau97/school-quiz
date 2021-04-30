@@ -1,8 +1,9 @@
 import React from 'react';
 import AnswerWrapper from './answer/AnswerWrapper.jsx';
+import './question.scss';
 
 const Question = ({ title, answers, id, typeId }) => (
-    <div className="question">
+    <div className="question content__card">
         <div className="question__head">
             <h2>{title}</h2>
         </div>

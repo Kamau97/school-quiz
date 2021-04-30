@@ -7,7 +7,7 @@ const Answer = ({ text, isCorrect, groupId, wasClicked, onClick }) => {
     return (
         <div className="answer">
             <button
-                className={classNames({
+                className={classNames('button', {
                     wrong: wasClicked && selected && !isCorrect,
                     correct: wasClicked && isCorrect,
                     disabled: wasClicked && !selected,
