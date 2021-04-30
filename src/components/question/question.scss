@@ -1,8 +1,11 @@
 .question {
-  background-color: rgba(62, 62, 219, 0.64);
+  //background-color: rgba(62, 62, 219, 0.64);
   max-width: 475px;
   width: 80vw;
   border-radius: 10px;
+  border: 1px solid grey;
+  margin-bottom: 20px!important;
+  padding-bottom: 12px!important;
 
   &__head {
     display: flex;
