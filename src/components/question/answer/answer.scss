@@ -1,0 +1,13 @@
+.answer {
+  .correct {
+    background-color: green;
+  }
+
+  .wrong {
+    background-color: red;
+  }
+
+  .disabled {
+    opacity: 0.3;
+  }
+}
