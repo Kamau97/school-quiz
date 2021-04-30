@@ -8,7 +8,8 @@
     "start:http": "webpack-dev-server --config ./webpack/dev.babel.js",
     "build": "webpack -p --config ./webpack/prod.babel.js",
     "build:staging": "webpack -p --config ./webpack/staging.babel.js",
-    "fix:eslint": "eslint --fix --ext .jsx,.js ./src ./webpack"
+    "fix:eslint": "eslint --fix --ext .jsx,.js ./src ./webpack",
+    "deploy": "npm run build && gh-pages -d build"
   },
   "author": "Kamau Wolfson",
   "license": "MIT",
@@ -37,6 +38,7 @@
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^4.0.4",
     "lodash-webpack-plugin": "^0.11.5",
     "node-sass": "^4.13.1",
